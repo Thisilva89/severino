@@ -1,0 +1,132 @@
+
+
+body {
+    background-color: rgb(214, 193, 193);
+   font-family:'Montserrat';
+}
+
+
+.f-principal {
+    display:flex;
+    flex-direction:row-reverse;
+    gap: 0px;
+}
+
+.f-principal .texto {
+    flex-direction:column;
+    text-align:justify;
+    width: 500px;
+    gap: 40px;
+    padding: 60px 100px;
+}
+
+.f-quemsoueu {
+    background-color: #fff;
+    display:flex;
+    gap: 40px;
+    padding: 0px 0px;
+}
+
+.f-quemsoueu .textos {
+    display:block;
+    flex-direction: column;
+    text-align:justify;
+    width: 650px;
+    padding: 0px;
+}
+
+.f-oqueseifazer {
+    background-color: rgb(214, 193, 193);
+    display:flex;
+    flex-direction:row-reverse;
+    justify-content: center;
+    padding: 0px;
+}
+
+.f-oqueseifazer .textos {
+    display:flex;
+    flex-direction: column;
+    text-align:justify;
+    gap: 0px;
+    width: 650px;
+    padding: 20px;
+    line-height: 16px;    
+   }
+
+   .f-contato {
+    background-color: #fff;
+    text-align:justify;
+    display:flex;
+    gap: 30px;
+    padding: 0px; 
+}
+
+.f-contato .textos p {
+    display:block;
+    flex-direction:row;
+    width: 750px;
+    height:40px;
+    font-size: 20px;
+    line-height: 16px;
+}
+
+.benefits{
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    width: 90%;
+    margin: 0 auto;
+}
+.benefit{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+}
+.benefit .benefit-img{
+    width: 340px;
+    height: 310px;
+    border-radius: 5%;
+    background-position:center ;
+    margin-bottom: 1em;
+
+}
+#benefit-1{
+    background-image: url(/severino/images/quadro2.png);
+}
+#benefit-2{
+    background-image: url(/severino/images/parede2.png);
+}
+#benefit-3{
+    background-image: url(/severino/images/moveis1.jpg);
+}
+
+.about-event {
+    font-size: 2em;
+    font-weight:bold;
+          
+}  
+.form-nome input{
+    margin-bottom: 0.6em;
+    padding: 0px 110px 0px 0px;
+    
+}
+.form-email input{
+    margin-bottom: 0.6em;
+    padding: 0px 110px 0px 0px;
+    
+}
+.form-phone input{
+    margin-bottom: 0.6em;
+    padding: 0px 110px 0px 0px;
+}
+.form-interes input{
+    margin-bottom: 0.6em;
+    padding: 10px;
+    font-size: .8em;
+    padding: 0px 120px 120px 0px;
+}
+
+
+
